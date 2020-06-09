@@ -1,6 +1,6 @@
     // problem : https://dev.to/thepracticaldev/daily-challenge-255-is-there-an-odd-bit-409d
     
-    function decToBinary(d){
+    function any_odd(d){
       var b=d.toString(2);
         var arr=[];
    		 for (var i = 0; i < b.length; i++) {
@@ -12,4 +12,4 @@
         }
       return 0;
     }
-    decToBinary(256);
+    any_odd(256);
