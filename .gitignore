@@ -511,3 +511,7 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,rider,visualstudiocode,visualstudio
+/.idea/code_challenges.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
