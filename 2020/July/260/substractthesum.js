@@ -116,6 +116,8 @@ const getFruits = () => [
     "pineapple"];
 
 
+
+
 //console.log(SubstractSum(10));
 console.log(SubstractSum(325));
 //console.log(SubstractSum(101));

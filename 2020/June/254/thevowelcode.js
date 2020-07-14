@@ -4,7 +4,7 @@
 {
     const vowels = ["a", "e", "i", "o", "u"];
 
-    function encode(stringToEncode) {
+    const encode = stringToEncode => {
         if (!isNaN(stringToEncode)) return;
         for (let i = 0; i < stringToEncode.length; i++) {
             if (vowels.includes(stringToEncode[i])) {
@@ -13,16 +13,16 @@
             }
         }
         return stringToEncode;
-    }
+    };
 
-    function decode(stringToDecode) {
+    const decode = stringToDecode => {
         for (let i = 0; i < stringToDecode.length; i++) {
             if (!isNaN(stringToDecode[i])) {
                 stringToDecode = stringToDecode.replace(stringToDecode[i], vowels[stringToDecode[i] - 1]);
             }
         }
         return stringToDecode.replace("undefined", " ");
-    }
+    };
 
     // decode("R1j3v Y1n1m1ndr1");
     // encode("Rajiv Yanamandra");
